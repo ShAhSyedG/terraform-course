@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "devops-directive-tf-state"
+    bucket         = "terraform-state-test-642"
     key            = "04-variables-and-outputs/examples/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-state-locking"
